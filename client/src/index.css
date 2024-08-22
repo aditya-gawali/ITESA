@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'gilroy'; /* Choose a name for your font */
+    src: url('fonts/Gilroy-Bold.ttf') format('truetype'); /* Path to your .ttf file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aeonik'; /* Choose a name for your font */
+    src: url('fonts/Aeonik-Medium.907edaaa.ttf') format('truetype'); /* Path to your .ttf file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura'; /* Choose a name for your font */
+    src: url('fonts/Futura-Bold.ttf') format('truetype'); /* Path to your .ttf file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track (background) of the scrollbar */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle (the scrolling part) of the scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+
