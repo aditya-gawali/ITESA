@@ -1,43 +1,40 @@
 import React from 'react'
-import { RiArrowRightLine, RiArrowRightUpLine, RiArrowUpLine, RiInstagramLine, RiLinkedinBoxLine, RiLinkedinLine, RiMacbookLine, RiTwitterLine, RiYoutubeLine } from '@remixicon/react'
+import { RiArrowRightLine, RiArrowRightUpLine, RiArrowUpLine, RiDiscordFill, RiInstagramFill, RiInstagramLine, RiLinkedinBoxFill, RiLinkedinBoxLine, RiLinkedinLine, RiMacbookLine, RiTwitterLine, RiTwitterXFill, RiYoutubeFill, RiYoutubeLine } from '@remixicon/react'
 
 const Footer = () => {
     return (
-        <div className='w-full min-h-[70vh] mt-10 bg-black text-white font-[aeonik] relative    '>
+        <>
+            <div className='text-white font-[neue] relative my-10 border-t border-gray-600 mx-4 md:mx-14 '>
 
-            <div className='p-6'>
-                <h1 className='text-3xl  flex items-center gap-3'><RiMacbookLine className='font-bold size-8' />ITESA</h1>
-            </div>
+                <div className='flex flex-col md:flex-row justify-between w-full my-5 md:my-10 md:px-5 gap-6'>
+                    <div className='px-4 flex flex-col gap-4 text-sm w-full'>
+                        <img src="/images/itesa without backgroung png.png" alt="" className='w-[20vh]' />
+                        <h1 className='text-lg'>Connect with us</h1>
+                        <div className="flex gap-6">
+                            <h1 className='flex items-center justify-start gap-2'> <RiInstagramFill /></h1>
+                            <h1 className='flex items-center justify-start gap-2'> <RiLinkedinBoxFill /></h1>
+                            <h1 className='flex items-center justify-start gap-2'> <RiDiscordFill /></h1>
+                            <h1 className='flex items-center justify-start gap-2'> <RiYoutubeFill /></h1>
+                            <h1 className='flex items-center justify-start gap-2'> <RiTwitterXFill /> </h1>
+                        </div>
 
-            <div className='flex flex-row justify-between w-full mt-10 px-5'>
-                <div className='px-4 flex flex-col gap-4 text-sm w-full'>
-                    <h1 className='text-xl'>Connect with us</h1>
-                    <h1 className='flex items-center justify-start gap-2'> <RiInstagramLine /> Instagram</h1>
-                    <h1 className='flex items-center justify-start gap-2'> <RiLinkedinBoxLine /> LinkedIn</h1>
-                    <h1 className='flex items-center justify-start gap-2'> <RiTwitterLine /> X</h1>
-                    <h1 className='flex items-center justify-start gap-2'> <RiYoutubeLine /> Youtube</h1>
-
-                </div>
-
-                <div className='px-4 flex flex-col gap-4 text-sm w-full'>
-                    <h1 className='text-xl'>Events</h1>
-                    <h1 className='flex items-center justify-start gap-2'> <RiArrowRightUpLine /> Event 1</h1>
-                    <h1 className='flex items-center justify-start gap-2'> <RiArrowRightUpLine /> Event 2</h1>
-                    <h1 className='flex items-center justify-start gap-2'> <RiArrowRightUpLine /> Event 3</h1>
-                    <h1 className='flex items-center justify-start gap-2'> <RiArrowRightUpLine /> Event 4</h1>
-
-                </div>
-
-                <div className='px-4 flex flex-col gap-4 text-sm w-full'>
-                    <h1 className='text-xl'>Join us</h1>
-                    <div className="w-full flex items-center justify-start gap-4">
-                        <input type="text" className='w-3/4 h-10 rounded-sm px-2 p-4 text-lg text-black ring-0 focus:ring-0 outline-0 focus:outline-offset-1 focus:outline-0 focus:shadow-xl' placeholder='Your Email ' />
-                        <RiArrowRightLine className='hover:bg-white hover:text-black rounded-full size-7' />
                     </div>
 
+
+                    <div className='px-4 flex flex-col gap-4 text-sm w-full'>
+                        <h1 className='text-xl'>News Letter</h1>
+                        <div className="w-full flex items-center justify-start gap-4">
+                            <input type="text" className='w-3/4 h-10 rounded-sm px-2 p-4 text-lg text-black ring-0 focus:ring-0 outline-0 focus:outline-offset-1 focus:outline-0 focus:shadow-xl' placeholder='Your Email ' />
+                            <button className='bg-[#27E0B3] py-2 rounded-sm px-5 text-black text-xl font-[aeonik]'>Subscribe </button>
+
+                        </div>
+
+                    </div>
                 </div>
             </div>
-        </div>
+
+        </>
+
     )
 }
 

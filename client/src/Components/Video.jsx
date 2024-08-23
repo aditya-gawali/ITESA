@@ -16,7 +16,7 @@ const Video = () => {
 
     return (
 
-        <div className='w-full h-[90vh] bg-gray-400 mt-20 overflow-hidden' >
+        <div className='rounded-2xl h-[30vh] md:h-[70vh] bg-gray-400 mt-10 md:mt-20 overflow-hidden mx-4 md:mx-20' >
             {/* <img src='/images/itesa-banner.png' className='w-full h-full object-cover' alt="" /> */}
             <video
                 muted

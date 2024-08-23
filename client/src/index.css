@@ -3,46 +3,106 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'gilroy'; /* Choose a name for your font */
-    src: url('fonts/Gilroy-Bold.ttf') format('truetype'); /* Path to your .ttf file */
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'gilroy';
+  /* Choose a name for your font */
+  src: url('fonts/Gilroy-Bold.ttf') format('truetype');
+  /* Path to your .ttf file */
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'aeonik'; /* Choose a name for your font */
-    src: url('fonts/Aeonik-Medium.907edaaa.ttf') format('truetype'); /* Path to your .ttf file */
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'aeonik';
+  /* Choose a name for your font */
+  src: url('fonts/Aeonik-Medium.907edaaa.ttf') format('truetype');
+  /* Path to your .ttf file */
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'futura'; /* Choose a name for your font */
-    src: url('fonts/Futura-Bold.ttf') format('truetype'); /* Path to your .ttf file */
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'futura';
+  /* Choose a name for your font */
+  src: url('fonts/Futura-Bold.ttf') format('truetype');
+  /* Path to your .ttf file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'neue';
+  /* Choose a name for your font */
+  src: url('fonts/NeueMachina-Regular_DQCmjH1st.ttf') format('truetype');
+  /* Path to your .ttf file */
+  font-weight: normal;
+  font-style: normal;
 }
 
 
 /* Width of the scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track (background) of the scrollbar */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-  
-  /* Handle (the scrolling part) of the scrollbar */
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
-    border-radius: 5px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-  
+  width: 10px;
+}
 
+/* Track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #0c0c0c;
+}
+
+/* Handle (the scrolling part) of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #1a1919;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+body {
+  background-image: url("data:image/svg+xml,%3Csvg width='1512' height='6397' viewBox='0 0 1512 6397' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_243_2)'%3E%3Crect width='1512' height='6397' fill='%230c0c0c' /%3E%3Cg opacity='0.4' filter='url(%23filter0_f_243_2)'%3E%3Cpath d='M387.38 137.553C355.297 -107.774 513.625 -371.892 752.935 -403.188C992.246 -434.485 1087.35 -273.117 1119.44 -27.7906C1151.52 217.536 993.208 -36.6224 796.88 -10.947C557.569 20.3495 419.463 382.88 387.38 137.553Z' fill='%2324cfa7' /%3E%3C/g%3E%3Cg filter='url(%23filter1_f_243_2)'%3E%3Ccircle cx='15' cy='3176' r='185' fill='%2324cfa7' /%3E%3C/g%3E%3Cg filter='url(%23filter2_f_243_2)'%3E%3Ccircle cx='1275' cy='840' r='64' fill='%2324cfa7' /%3E%3C/g%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_f_243_2' x='239.258' y='-551.062' width='1028.33' height='917.31' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix' /%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' /%3E%3CfeGaussianBlur stdDeviation='72' result='effect1_foregroundBlur_243_2' /%3E%3C/filter%3E%3Cfilter id='filter1_f_243_2' x='-774' y='2387' width='1578' height='1578' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix' /%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' /%3E%3CfeGaussianBlur stdDeviation='302' result='effect1_foregroundBlur_243_2' /%3E%3C/filter%3E%3Cfilter id='filter2_f_243_2' x='967' y='532' width='616' height='616' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix' /%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' /%3E%3CfeGaussianBlur stdDeviation='122' result='effect1_foregroundBlur_243_2' /%3E%3C/filter%3E%3CclipPath id='clip0_243_2'%3E%3Crect width='1512' height='6397' fill='white' /%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: initial;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url("data:image/svg+xml,%3Csvg width='430' height='4047' viewBox='0 0 430 4047' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_250_476)'%3E%3Crect width='430' height='4047' fill='%230C0C0C'/%3E%3Cg opacity='0.7'%3E%3Cg opacity='0.4' filter='url(%23filter0_f_250_476)'%3E%3Cpath d='M141.731 249.201C97.5947 178.39 109.273 75.197 178.349 32.1435C247.424 -10.9101 299.168 25.3241 343.303 96.1357C387.439 166.947 303.327 111.068 246.659 146.388C177.584 189.442 185.867 320.013 141.731 249.201Z' fill='%2324CFA6'/%3E%3C/g%3E%3Cg filter='url(%23filter1_f_250_476)'%3E%3Ccircle cx='397' cy='815.941' r='59' fill='%2324CFA6'/%3E%3C/g%3E%3Cg filter='url(%23filter2_f_250_476)'%3E%3Ccircle cx='42' cy='2669.96' r='103' fill='%2324CFA6'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_f_250_476' x='-28.3477' y='-130.407' width='527.995' height='544.258' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeGaussianBlur stdDeviation='72' result='effect1_foregroundBlur_250_476'/%3E%3C/filter%3E%3Cfilter id='filter1_f_250_476' x='94' y='512.941' width='606' height='606' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeGaussianBlur stdDeviation='122' result='effect1_foregroundBlur_250_476'/%3E%3C/filter%3E%3Cfilter id='filter2_f_250_476' x='-461' y='2166.96' width='1006' height='1006' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeGaussianBlur stdDeviation='200' result='effect1_foregroundBlur_250_476'/%3E%3C/filter%3E%3CclipPath id='clip0_250_476'%3E%3Crect width='430' height='4047' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  display: flex;
+  animation: marquee 50s linear infinite;
+  width: max-content; /* Ensures the width is wide enough to contain all images */
+}
+
+.marquee::before {
+  content: '';
+  display: flex;
+  flex-shrink: 0;
+  /* width: 100%; This makes sure the images wrap around perfectly */
+}
+
+.marquee img {
+  flex-shrink: 0;
+  /* width: 25%; Width of individual images, assuming 4 images */
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
