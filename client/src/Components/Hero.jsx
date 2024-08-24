@@ -18,7 +18,7 @@ const Hero = () => {
     <div ref={heroRef} className='w-full min-h-[60vh] relative text-white'>
 
       <div className='absolute z-10 w-full h-[80vh] flex items-center justify-center flex-col gap-10'>
-        <h1 className='font-[gilroy] text-[9vw] md:text-[4.5vw] text-center p-4  leading-[10vw] md:leading-[5vw]'>
+        <h1 className='font-[neue] text-[9vw] md:text-[4.5vw] text-center p-4  leading-[10vw] md:leading-[5vw]'>
           Join the
           <span className=' text-[#27E0B3] text-[8.5vw] md:text-[5vw] font-[neue]'> Future</span>
           <br /> of Coding with

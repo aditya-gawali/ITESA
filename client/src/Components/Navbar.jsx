@@ -22,7 +22,6 @@ const Navbar = () => {
       <div ref={navRef} className='w-full overflow-hidden h-[10vh] md:h-[12vh] top-0 font-[neue] flex flex-row justify-between items-center px-4 md:px-10 p-5 bg-[#0c0c0c] text-white bg-opacity-30 backdrop-blur-sm fixed left-0 z-20'>
         <img src="/images/itesa without backgroung png.png" alt="" className='w-[20vh] md:w-[26vh]' />
         <div className='flex flex-row items-center justify-around gap-12 text-md hidden md:flex'>
-          <div></div>
           <h1 className="nav-item">Home</h1>
           <h1 className="nav-item">Events</h1>
           <h1 className="nav-item">Team</h1>
