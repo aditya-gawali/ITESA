@@ -3,7 +3,10 @@ import TeamCard from './TeamCard'
 
 const Teams = () => {
 
-    const images = ["mayank", "janhavi", "piyush m", "yash", "gayatri", "nikhil", "asmita", "aman", "madhura", "aditya", "prajwal", "piyush p", "arya", "Achintya", "Abhishek", "parth", "soham", "Shanayu", "sahil", "shreya"]
+
+
+
+    const images = ["hod", "hod2", "hod3", "mayank", "janhavi", "piyush", "yash", "gayatri", "nikhil", "asmita", "aman", "madhura", "aditya", "prajwal", "Piyush ", "arya", "Achintya", "Abhishek", "abhidnya", "shravani","parth", "soham", "Shanayu", "sahil", "shreya"]
 
     return (
         <div className="overflow-hidden mx-4 md:mx-14">
