@@ -38,6 +38,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'helve';
+  /* Choose a name for your font */
+  src: url('fonts/HelveticaNowDisplay-Regular_5Mzhp8KlA8_CAVTbnsPOM.ttf') format('truetype');
+  /* Path to your .ttf file */
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /* Width of the scrollbar */
 ::-webkit-scrollbar {
@@ -87,7 +96,7 @@ body {
 
 .marquee {
   display: flex;
-  animation: marquee 50s linear infinite;
+  animation: marquee 90s linear infinite;
   width: max-content; /* Ensures the width is wide enough to contain all images */
 }
 

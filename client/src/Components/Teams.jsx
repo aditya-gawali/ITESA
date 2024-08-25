@@ -1,6 +1,10 @@
 import React from 'react'
+import TeamCard from './TeamCard'
 
 const Teams = () => {
+
+    const images = ["mayank", "janhavi", "piyush m", "yash", "gayatri", "nikhil", "asmita", "aman", "madhura", "aditya", "prajwal", "piyush p", "arya", "Achintya", "Abhishek", "parth", "soham", "Shanayu", "sahil", "shreya"]
+
     return (
         <div className="overflow-hidden mx-4 md:mx-14">
 
@@ -8,21 +12,17 @@ const Teams = () => {
                 Our Team.
             </h1>
 
-                <div className="flex items-center marquee space-x-8 ">
-                    <img src="/team/person1.webp" alt="Image 1" className="w-[60vw] md:w-[20vw] h-[40vh] md:h-[50vh] object-cover overflow-hidden rounded-lg" />
-                    <img src="/team/person2.webp" alt="Image 1" className="w-[60vw] md:w-[20vw] h-[40vh] md:h-[50vh] object-cover overflow-hidden rounded-lg" />
-                    <img src="/team/person3.webp" alt="Image 1" className="w-[60vw] md:w-[20vw] h-[40vh] md:h-[50vh] object-cover overflow-hidden rounded-lg" />
-                    <img src="/team/person4.webp" alt="Image 1" className="w-[60vw] md:w-[20vw] h-[40vh] md:h-[50vh] object-cover overflow-hidden rounded-lg" />
-                    <img src="/team/person1.webp" alt="Image 1" className="w-[60vw] md:w-[20vw] h-[40vh] md:h-[50vh] object-cover overflow-hidden rounded-lg" />
-                    <img src="/team/person2.webp" alt="Image 1" className="w-[60vw] md:w-[20vw] h-[40vh] md:h-[50vh] object-cover overflow-hidden rounded-lg" />
-                    <img src="/team/person3.webp" alt="Image 1" className="w-[60vw] md:w-[20vw] h-[40vh] md:h-[50vh] object-cover overflow-hidden rounded-lg" />
-                    <img src="/team/person4.webp" alt="Image 1" className="w-[60vw] md:w-[20vw] h-[40vh] md:h-[50vh] object-cover overflow-hidden rounded-lg" />
-                    <img src="/team/person1.webp" alt="Image 1" className="w-[60vw] md:w-[20vw] h-[40vh] md:h-[50vh] object-cover overflow-hidden rounded-lg" />
-                    <img src="/team/person2.webp" alt="Image 1" className="w-[60vw] md:w-[20vw] h-[40vh] md:h-[50vh] object-cover overflow-hidden rounded-lg" />
-                    <img src="/team/person3.webp" alt="Image 1" className="w-[60vw] md:w-[20vw] h-[40vh] md:h-[50vh] object-cover overflow-hidden rounded-lg" />
-                    <img src="/team/person4.webp" alt="Image 1" className="w-[60vw] md:w-[20vw] h-[40vh] md:h-[50vh] object-cover overflow-hidden rounded-lg" />
+            <div className="flex items-center marquee space-x-8 ">
 
-                </div>
+                {
+                    images.map((names, key) => {
+                        return <TeamCard image={names} />
+                    })
+                }
+
+
+
+            </div>
         </div>
     )
 }

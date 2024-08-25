@@ -25,7 +25,7 @@ const Hero = () => {
           <span className=' text-[#27E0B3] text-[8vw] md:text-[5vw] font-[neue]'> ITESA.</span>
 
         </h1>
-        <button className='bg-[#27E0B3] py-2 rounded-sm px-5 text-black text-2xl font-[neue]'>Join Us </button>
+        <button className='bg-[#27E0B3] py-2 rounded-sm px-5 text-black text-2xl font-[neue] font-bold'>Join Us </button>
       </div>
 
 
