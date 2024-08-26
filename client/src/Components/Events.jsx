@@ -45,7 +45,7 @@ const Events = () => {
                         alt=""
                         className='h-full w-full overflow-hidden object-cover rounded-t-xl'
                     /> */}
-                    <img src="/images/Poster.png"
+                    <img src="/images/Poster.jpg"
                         alt=""
                         className='h-full w-full overflow-hidden object-cover rounded-t-xl'
                     />
@@ -54,7 +54,23 @@ const Events = () => {
                     <button className='mx-4 bg-[#27E0B3] py-2 rounded-lg px-5 text-black text-xl font-[neue]' disabled>Register Now</button>
                 </div>
 
-                <div className='w-full'></div>
+                <div className='w-full h-[80vh] bg-[#2C2C2C] flex flex-col gap-6 pb-4 text-white rounded-xl '>
+                    {/* <img src="https://cdn.sanity.io/images/w8f1ak3c/production/9032e317a6741221ae543fdae5d05160819f9a44-1500x2250.jpg/DSC0079_Dexter%20Kim.jpg?rect=0,0,1500,2008&fp-x=0.47794117647058826&fp-y=0.4461323529411765&w=420&h=700&fit=crop&crop=focalpoint&auto=format"
+                        alt=""
+                        className='h-full w-full overflow-hidden object-cover rounded-t-xl'
+                    /> */}
+                    <img src="/images/hiring.jpg"
+                        alt=""
+                        className='h-full w-full overflow-hidden object-cover rounded-t-xl'
+                    />
+
+                    <h1 className='px-4 text-xl font-[neue]'>We are Recruiting.</h1>
+                    {/* <a href="/join w-full"> */}
+                        <button className='mx-4 bg-[#27E0B3] py-2 rounded-lg px-5 text-black text-xl font-[neue]' disabled>Register Now</button>
+                    {/* </a> */}
+                </div>
+
+                {/* <div className='w-full'></div> */}
                 <div className='w-full'></div>
 
                 {/* <div className='w-full h-[80vh] bg-[#2C2C2C] flex flex-col gap-6 pb-4 text-white rounded-xl'>

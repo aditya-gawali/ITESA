@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'gilroy';
-  /* Choose a name for your font */
-  src: url('fonts/Gilroy-Bold.ttf') format('truetype');
-  /* Path to your .ttf file */
-  font-weight: normal;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'aeonik';
@@ -20,14 +12,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'futura';
-  /* Choose a name for your font */
-  src: url('fonts/Futura-Bold.ttf') format('truetype');
-  /* Path to your .ttf file */
-  font-weight: normal;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'neue';
@@ -38,14 +22,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'helve';
-  /* Choose a name for your font */
-  src: url('fonts/HelveticaNowDisplay-Regular_5Mzhp8KlA8_CAVTbnsPOM.ttf') format('truetype');
-  /* Path to your .ttf file */
-  font-weight: normal;
-  font-style: normal;
-}
 
 
 /* Width of the scrollbar */
@@ -89,6 +65,7 @@ body {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -97,7 +74,8 @@ body {
 .marquee {
   display: flex;
   animation: marquee 90s linear infinite;
-  width: max-content; /* Ensures the width is wide enough to contain all images */
+  width: max-content;
+  /* Ensures the width is wide enough to contain all images */
 }
 
 .marquee::before {
