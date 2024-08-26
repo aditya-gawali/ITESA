@@ -4,7 +4,7 @@ import TeamCard from './TeamCard'
 const Teams = () => {
 
 
-    const images = ["dr. preeti patil", "dr. latika desai", "mrs. renuka patil", "mayank", "janhavi", "piyush", "yash", "gayatri", "nikhil", "asmita", "aman", "madhura", "aditya", "prajwal", "Piyush ", "arya", "Achintya", "Abhishek", "abhidnya", "shravani", "parth", "soham", "Shanayu", "sahil", "shreya", "vedant"]
+    const images = ["dr. preeti patil", "dr. latika desai", "mrs. renuka patil", "mayank", "janhavi", "piyush", "yash", "gayatri", "nikhil", "asmita", "aman", "madhura", "aditya", "prajwal", "Piyush ", "arya", "Achintya", "Abhishek", "abhidnya", "shravani", "parth", "soham", "Shanayu","prashant", "sahil", "shreya", "vedant"]
 
     return (
         <div className="overflow-hidden mx-4 md:mx-14">
