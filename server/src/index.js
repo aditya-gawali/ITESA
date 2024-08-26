@@ -8,9 +8,17 @@ import 'dotenv/config';
 
 const app = express();
 
+const corsOptions = {
+    origin: 'https://www.itesa.onrender.com/',//(https://your-client-app.com)
+    optionsSuccessStatus: 200,
+};
+
+
 app.use(express.urlencoded({ extended: false }));
 app.use(cors())
 app.use(express.json());
+
+app.use(cors(corsOptions));
 
 app.use(joinRouter);
 
