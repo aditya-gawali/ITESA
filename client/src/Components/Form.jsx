@@ -23,7 +23,7 @@ const Form = () => {
 
 
 
-        const response = await fetch("http://localhost:3000/api/join", {
+        const response = await fetch("https://itesa-server.onrender.com/api/join", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
