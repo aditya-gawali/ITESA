@@ -26,9 +26,9 @@ const Navbar = () => {
           <h1 className='text-2xl font-[neue]'>ITESA</h1>
         </div>
         <div className='flex flex-row items-center justify-around gap-12 text-md hidden md:flex'>
-          <h1 className="nav-item">Home</h1>
-          <h1 className="nav-item">Events</h1>
-          <h1 className="nav-item">Team</h1>
+          <h1 className="nav-item hover:cursor-pointer">Home</h1>
+          <h1 className="nav-item hover:cursor-pointer">Events</h1>
+          <h1 className="nav-item hover:cursor-pointer">Team</h1>
           <Button name="Sign In" />
         </div>
 
