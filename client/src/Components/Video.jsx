@@ -25,7 +25,7 @@ const Video = () => {
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
                 src="https://cms.raxo.co/wp-content/uploads/2023/12/Reel_Web_Rx_23_home_LOOP.mp4" className='w-full h-full object-cover cursor-pointer'></video> */}
-            <img src="/team/hero2.jpg" alt="" className='w-full h-full object-cover md:hidden' />
+            {/* <img src="/team/hero2.jpg" alt="" className='w-full h-full object-cover md:hidden' /> */}
             <img src="/team/hero.jpg" alt="" className='w-full h-full object-cover' />
             
 
