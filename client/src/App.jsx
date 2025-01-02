@@ -12,8 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
       <Route path='/' element={<HomePage />}></Route>
-      <Route path='/join' element={<JoinUs />}></Route>
-
+      {/* <Route path='/join' element={<JoinUs />}></Route> */}
       </Routes>
     </BrowserRouter>
   )

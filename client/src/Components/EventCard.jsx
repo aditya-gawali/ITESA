@@ -1,6 +1,6 @@
 import React from 'react'
 
-const EventCard = ({ image, eventName, closed = true }) => {
+const EventCard = ({ image, eventName, closed = true, registerLink = "#" }) => {
     return (
         <div className='w-full h-[80vh] bg-[#2C2C2C] flex flex-col gap-6 pb-4 text-white rounded-xl '>
 
@@ -12,7 +12,11 @@ const EventCard = ({ image, eventName, closed = true }) => {
             <h1 className='px-4 text-xl font-[neue]'>{eventName}</h1>
             {
                 !closed ?
-                    <button className='mx-4 bg-[#27E0B3] py-2 rounded-lg px-5 text-black text-xl font-[neue]'>Register Now</button>
+                    <a href={registerLink}>
+                        <button className='mx-4 bg-[#27E0B3] py-2 rounded-lg px-5 text-black text-xl font-[neue]'>
+                            Register Now
+                        </button>
+                    </a>
                     :
                     <button className='mx-4 bg-gray-200  py-2 rounded-lg px-5 text-black text-xl font-[neue]'>Registration Closed</button>
             }

@@ -13,18 +13,19 @@ const Events = () => {
             </h1>
 
             <div className='my-8 flex flex-col md:flex-row items-center justify-between pt-5 h-max md:h-[80vh] gap-6 md:gap-4'>
-                <EventCard image='/images/poster_competition.jpg' eventName='Poster Making Contest.' closed={true} />
-                <EventCard image='/images/roadmap.png' eventName='RoadMap Session.' closed={true} />
-                <EventCard image='/images/chess.png' eventName='Chess Tournament.' closed={true} />
+                <EventCard image='/images/expert_session.png' eventName='Expert Session.' closed={false} registerLink='https://lu.ma/qw0pl8bq' />
+                <EventCard image='/images/poster_competition.jpg' eventName='Poster Making Contest.' />
+                <EventCard image='/images/roadmap.png' eventName='RoadMap Session.' />
             </div>
 
             <div className='flex flex-col md:flex-row items-center justify-between pt-5 h-max md:h-[80vh] gap-6 md:gap-4'>
 
+                <EventCard image='/images/chess.png' eventName='Chess Tournament.' />
 
-                <EventCard image='/images/Poster.jpg' eventName='SE-TE Interaction and Felicitation.' closed={true} />
-                <EventCard image='/images/hiring.jpg' eventName='We are Recruiting.' closed={true} />
+                <EventCard image='/images/Poster.jpg' eventName='SE-TE Interaction and Felicitation.' />
+                <EventCard image='/images/hiring.jpg' eventName='We are Recruiting.' />
 
-                <div className='w-full'></div>
+                {/* <div className='w-full'></div> */}
 
 
             </div>
