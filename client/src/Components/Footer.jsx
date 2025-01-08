@@ -11,11 +11,21 @@ const Footer = () => {
                         <img src="/images/itesa without backgroung png.png" alt="" className='w-[20vh]' />
                         <h1 className='text-lg'>Connect with us</h1>
                         <div className="flex gap-6">
-                            <h1 className='flex items-center justify-start gap-2'> <RiInstagramFill /></h1>
-                            <h1 className='flex items-center justify-start gap-2'> <RiLinkedinBoxFill /></h1>
-                            <h1 className='flex items-center justify-start gap-2'> <RiDiscordFill /></h1>
-                            <h1 className='flex items-center justify-start gap-2'> <RiYoutubeFill /></h1>
-                            <h1 className='flex items-center justify-start gap-2'> <RiTwitterXFill /> </h1>
+                            <h1 className='flex items-center justify-start gap-2'> 
+                                <a href="https://www.instagram.com/itesa.dyp?igsh=Z3lhMTN6M2E3eTlr" target="_blank" rel="noopener noreferrer"><RiInstagramFill /></a>
+                            </h1>
+                            <h1 className='flex items-center justify-start gap-2'> 
+                                <a href=" https://www.linkedin.com/company/itesa-dyp/" target="_blank" rel="noopener noreferrer"><RiLinkedinBoxFill /></a>
+                            </h1>
+                            <h1 className='flex items-center justify-start gap-2'> 
+                                <a href="#" rel="noopener noreferrer"><RiDiscordFill /></a>
+                            </h1>
+                            <h1 className='flex items-center justify-start gap-2'> 
+                                <a href="#" rel="noopener noreferrer"><RiYoutubeFill /></a>
+                            </h1>
+                            <h1 className='flex items-center justify-start gap-2'> 
+                                <a href="#"  rel="noopener noreferrer"><RiTwitterXFill /></a>
+                            </h1>
                         </div>
 
                     </div>

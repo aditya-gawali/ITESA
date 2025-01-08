@@ -13,7 +13,7 @@ const Events = () => {
             </h1>
 
             <div className='my-8 flex flex-col md:flex-row items-center justify-between pt-5 h-max md:h-[80vh] gap-6 md:gap-4'>
-                <EventCard image='/images/expert_session.png' eventName='Expert Session.' closed={false} registerLink='https://lu.ma/qw0pl8bq' />
+                <EventCard image='/images/future_skills_in_AI.jpg' eventName='Webinar on "Future Skills in AI".' closed={false} registerLink='https://meet.google.com/kyb-tkux-fks' registerText='Join Webinar'  />
                 <EventCard image='/images/poster_competition.jpg' eventName='Poster Making Contest.' />
                 <EventCard image='/images/roadmap.png' eventName='RoadMap Session.' />
             </div>
@@ -26,7 +26,6 @@ const Events = () => {
                 <EventCard image='/images/hiring.jpg' eventName='We are Recruiting.' />
 
                 {/* <div className='w-full'></div> */}
-
 
             </div>
         </div>
