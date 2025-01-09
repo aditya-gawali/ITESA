@@ -12,7 +12,7 @@ const EventCard = ({ image, eventName, closed = true, registerLink = "#", regist
             <h1 className='px-4 text-xl font-[neue]'>{eventName}</h1>
             {
                 !closed ?
-                    <a href={registerLink}>
+                    <a href={registerLink} target='_blank'>
                         <button className='mx-4 bg-[#27E0B3] py-2 rounded-lg px-5 text-black text-xl font-[neue]'>
                             {registerText == "" ?  'Register Now' : registerText}
                         </button>       
